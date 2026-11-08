@@ -86,4 +86,4 @@ onUnmounted(() => stop())
 
 ## License
 
-MIT
+[MIT](https://github.com/michaelcalb/yet-another-typewriter/blob/main/LICENSE)
