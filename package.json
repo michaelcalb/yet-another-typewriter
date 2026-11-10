@@ -1,14 +1,14 @@
 {
-    "name": "yet-another-typewriter",
+    "name": "yats-typewriter",
     "version": "0.1.0",
-    "description": "Yet another typewriter package. No dependencies required.",
+    "description": "Yet Another TypeScript typewriter package. No dependencies required.",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/michaelcalb/yet-another-typewriter.git"
+        "url": "git+https://github.com/michaelcalb/yats-typewriter.git"
     },
-    "homepage": "https://github.com/michaelcalb/yet-another-typewriter#readme",
-    "bugs": "https://github.com/michaelcalb/yet-another-typewriter/issues",
+    "homepage": "https://github.com/michaelcalb/yats-typewriter#readme",
+    "bugs": "https://github.com/michaelcalb/yats-typewriter/issues",
     "type": "module",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",

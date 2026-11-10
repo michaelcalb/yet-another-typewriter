@@ -1,9 +1,9 @@
-# yet-another-typewriter
+# yats-typewriter
 
-Yet another typewriter package. No dependencies required.
+Yet Another TypeScript typewriter package. No dependencies required.
 
 ```sh
-npm i yet-another-typewriter
+npm i yats-typewriter
 ```
 
 ## Features
@@ -15,7 +15,7 @@ npm i yet-another-typewriter
 ## Usage
 
 ```ts
-import { typewriter } from 'yet-another-typewriter'
+import { typewriter } from 'yats-typewriter'
 
 const title = document.querySelector('h1')!
 
@@ -43,7 +43,7 @@ Call `stop()` to end it.
 
 ```tsx
 import { useEffect, useState } from 'react'
-import { typewriter } from 'yet-another-typewriter'
+import { typewriter } from 'yats-typewriter'
 
 // keep outside the component
 const options = {
@@ -63,7 +63,7 @@ export function Title() {
 ```vue
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { typewriter } from 'yet-another-typewriter'
+import { typewriter } from 'yats-typewriter'
 
 const options = {
     rules: [{ write: 'hi' }, { delete: 2 }, { write: 'bye' }, { delete: 3 }],
@@ -86,4 +86,4 @@ onUnmounted(() => stop())
 
 ## License
 
-[MIT](https://github.com/michaelcalb/yet-another-typewriter/blob/main/LICENSE)
+MIT
